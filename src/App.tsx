@@ -1,14 +1,14 @@
 import type {Component} from 'solid-js';
 import styles from './App.module.css';
-import {FibonacciCounter} from "./fibonacci/FibonacciCounter";
+import {Todo} from "./todo/Todo";
 
 const App: Component = () => {
 
 
     return (
         <div class={styles.container}>
-            {/*<Todo></Todo>*/}
-            <FibonacciCounter></FibonacciCounter>
+            <Todo></Todo>
+            {/*<FibonacciCounter></FibonacciCounter>*/}
         </div>
 
     );
